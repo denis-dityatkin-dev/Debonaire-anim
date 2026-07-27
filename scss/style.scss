@@ -467,6 +467,8 @@ body {
 		aspect-ratio: 197 / 197;
 		bottom: -12.418301%; /* -57/459 */
 		left: -21.116505%; /* -87/412 */
+		animation: rotate 300s infinite linear;
+
 	}
 	&__text {
 		@media (min-width: 37.5rem) {
@@ -478,7 +480,15 @@ body {
 		}
 	}
 }
-
+@keyframes rotate {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+	
+}
 // ==================== focused ===========
 
 .focused {
