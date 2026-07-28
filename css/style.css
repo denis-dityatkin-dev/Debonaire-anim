@@ -476,8 +476,6 @@ body {
   aspect-ratio: 197/197;
   bottom: -12.418301%; /* -57/459 */
   left: -21.116505%; /* -87/412 */
-  -webkit-animation: rotate 50s infinite linear !important;
-          animation: rotate 50s infinite linear !important;
 }
 @media (min-width: 37.5rem) {
   .hero__text {
@@ -491,23 +489,6 @@ body {
   }
 }
 
-@-webkit-keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 .focused {
   padding-bottom: 30px;
   position: relative;

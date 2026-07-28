@@ -176,3 +176,32 @@
 .--animate .anim--delay-right:nth-child(5){
 	transition-delay: 1.3s;
 }
+
+/* =============== anim--rotate ================== */
+
+.anim--rotate{
+	animation: rotate 70s infinite linear !important;
+}
+@keyframes rotate {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+	
+}
+/* =============== anim--rotate-rev ================== */
+
+.anim--rotate-rev{
+	animation: rotate-rev 70s infinite linear !important;
+}
+@keyframes rotate-rev {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(-360deg);
+	}
+	
+}
