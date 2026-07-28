@@ -944,13 +944,14 @@ body {
 		z-index: 2;
 		transform: translate(0, -64%);
 		@media (max-width: 47.9988rem) {
-			transform: translate(0, -30%);
-			right: 2%;
+			// transform: translate(0, -30%);
+			// right: 2%;
+			display: none;
 		}
-		@media (max-width: 29.9988rem) {
-			transform: translate(0, -50%);
-			font-size: 0.875rem;
-		}
+		// @media (max-width: 29.9988rem) {
+		// 	transform: translate(0, -50%);
+		// 	font-size: 0.875rem;
+		// }
 	}
 	&__image {
 		position: absolute;

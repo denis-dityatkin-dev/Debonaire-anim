@@ -966,14 +966,7 @@ body {
 }
 @media (max-width: 47.9988rem) {
   .passion__important {
-    transform: translate(0, -30%);
-    right: 2%;
-  }
-}
-@media (max-width: 29.9988rem) {
-  .passion__important {
-    transform: translate(0, -50%);
-    font-size: 0.875rem;
+    display: none;
   }
 }
 .passion__image {
